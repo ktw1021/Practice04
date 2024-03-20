@@ -24,17 +24,15 @@ public class Ex07 {
 		
 		for (int i=0; i<wonArray.length; i++) {
 			
-			int j=0;
-			
-			while(cost/wonArray[i]>=1) {
-				cost = cost % wonArray[i];
-				j++;
-			}
-			
+			int j=cost/wonArray[i];	
+			cost = cost % wonArray[i];
 			System.out.printf("%d원: %d개%n",wonArray[i],j);
 		}
 		sc.close();	
+			
 		}
 		
 	}
+		
+
 
