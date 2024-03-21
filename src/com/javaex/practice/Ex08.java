@@ -3,8 +3,7 @@ package com.javaex.practice;
 public class Ex08 {
 
 	public static void main(String[] args) {
-		int a [];
-		a = new int [5];
+		int a [] = new int [5];
 		
 		int t;
 		
